@@ -1,0 +1,64 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{FBCD8239-4993-451F-8FFD-1FEE9AED0191}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Modules", "Modules", "{C7734937-9E71-4F2F-9BD0-947436B32266}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Courses", "Courses", "{3120857F-A033-4E99-99B8-DBA4671B8714}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LearnAssist.Modules.Courses.Infrastructure", "src\Modules\Courses\LearnAssist.Modules.Courses.Infrastructure\LearnAssist.Modules.Courses.Infrastructure.csproj", "{2FDE55C3-8A43-44AA-A8C5-464EBE2148FF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LearnAssist.Modules.Courses.Application", "src\Modules\Courses\LearnAssist.Modules.Courses.Application\LearnAssist.Modules.Courses.Application.csproj", "{A2B98BCC-3F97-4C2E-A355-B8B9C7306F27}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LearnAssist.Modules.Courses.Domain", "src\Modules\Courses\LearnAssist.Modules.Courses.Domain\LearnAssist.Modules.Courses.Domain.csproj", "{6CA06529-7D34-4896-9811-9AF73A13CCFF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LearnAssist.Modules.Courses.Presentation", "src\Modules\Courses\LearnAssist.Modules.Courses.Presentation\LearnAssist.Modules.Courses.Presentation.csproj", "{BC5305B0-BD0B-436F-929C-1299852BC7D9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "API", "API", "{2D3ED4DD-2928-4114-A890-3FBB36D66AB1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LearnAssist.Api", "src\API\LearnAssist.Api\LearnAssist.Api.csproj", "{64648AE4-59C2-40E9-A261-5E1BE027F2A7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2FDE55C3-8A43-44AA-A8C5-464EBE2148FF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2FDE55C3-8A43-44AA-A8C5-464EBE2148FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2FDE55C3-8A43-44AA-A8C5-464EBE2148FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2FDE55C3-8A43-44AA-A8C5-464EBE2148FF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A2B98BCC-3F97-4C2E-A355-B8B9C7306F27}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A2B98BCC-3F97-4C2E-A355-B8B9C7306F27}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A2B98BCC-3F97-4C2E-A355-B8B9C7306F27}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A2B98BCC-3F97-4C2E-A355-B8B9C7306F27}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6CA06529-7D34-4896-9811-9AF73A13CCFF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6CA06529-7D34-4896-9811-9AF73A13CCFF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6CA06529-7D34-4896-9811-9AF73A13CCFF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6CA06529-7D34-4896-9811-9AF73A13CCFF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BC5305B0-BD0B-436F-929C-1299852BC7D9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BC5305B0-BD0B-436F-929C-1299852BC7D9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BC5305B0-BD0B-436F-929C-1299852BC7D9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BC5305B0-BD0B-436F-929C-1299852BC7D9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{64648AE4-59C2-40E9-A261-5E1BE027F2A7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{64648AE4-59C2-40E9-A261-5E1BE027F2A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{64648AE4-59C2-40E9-A261-5E1BE027F2A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{64648AE4-59C2-40E9-A261-5E1BE027F2A7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{C7734937-9E71-4F2F-9BD0-947436B32266} = {FBCD8239-4993-451F-8FFD-1FEE9AED0191}
+		{3120857F-A033-4E99-99B8-DBA4671B8714} = {C7734937-9E71-4F2F-9BD0-947436B32266}
+		{2FDE55C3-8A43-44AA-A8C5-464EBE2148FF} = {3120857F-A033-4E99-99B8-DBA4671B8714}
+		{A2B98BCC-3F97-4C2E-A355-B8B9C7306F27} = {3120857F-A033-4E99-99B8-DBA4671B8714}
+		{6CA06529-7D34-4896-9811-9AF73A13CCFF} = {3120857F-A033-4E99-99B8-DBA4671B8714}
+		{BC5305B0-BD0B-436F-929C-1299852BC7D9} = {3120857F-A033-4E99-99B8-DBA4671B8714}
+		{2D3ED4DD-2928-4114-A890-3FBB36D66AB1} = {FBCD8239-4993-451F-8FFD-1FEE9AED0191}
+		{64648AE4-59C2-40E9-A261-5E1BE027F2A7} = {2D3ED4DD-2928-4114-A890-3FBB36D66AB1}
+	EndGlobalSection
+EndGlobal
