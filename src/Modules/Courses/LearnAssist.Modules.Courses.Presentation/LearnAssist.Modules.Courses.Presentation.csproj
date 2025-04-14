@@ -7,6 +7,10 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <FrameworkReference Include="Microsoft.AspNetCore.App" />
+  </ItemGroup>
+
+  <ItemGroup>
     <ProjectReference Include="..\LearnAssist.Modules.Courses.Application\LearnAssist.Modules.Courses.Application.csproj" />
   </ItemGroup>
 
