@@ -5,6 +5,8 @@ services:
     build:
       context: .
       dockerfile: src/API/LearnAssist.Api/Dockerfile
+    environment:
+      - TZ=Asia/Tehran
     ports:
       - 5000:8080
       - 5001:8081

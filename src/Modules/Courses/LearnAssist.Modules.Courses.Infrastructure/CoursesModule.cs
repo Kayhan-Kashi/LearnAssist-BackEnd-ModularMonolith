@@ -1,4 +1,5 @@
 using System.Reflection.Metadata;
+using FluentValidation;
 using LearnAssist.Modules.Courses.Api.Database;
 using LearnAssist.Modules.Courses.Application.Abstractions.Data;
 using LearnAssist.Modules.Courses.Domain.Courses.Abstractions;
@@ -28,6 +29,7 @@ public static class CoursesModule
         {
             config.RegisterServicesFromAssemblies(Application.AssemblyReference.Assembly);
         });
+        services.AddValidatorsFromAssembly(Application.AssemblyReference.Assembly, includeInternalTypes: true);
         services.AddInfrastrucutre(configuration);
         return services;    
     }
